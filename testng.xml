@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Testing">
+    <test verbose="2" preserve-order="true" name="C:/Users/Mahmoud Khalaf/Downloads/NTIPractises/testng.xml">
+        <classes>
+            <class name="Tests.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                    <exclude name="invalidLogin"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
